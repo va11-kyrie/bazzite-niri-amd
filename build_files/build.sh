@@ -30,6 +30,8 @@ dnf5 -y install \
   fcitx5-configtool fcitx5-m17n \
   xwayland-satellite
 
+dnf5 -y install noctalia
+
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
