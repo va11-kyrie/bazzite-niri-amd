@@ -16,8 +16,6 @@ dnf5 -y remove plasma-workspace plasma-* kde-* kcm-fcitx5
 dnf5 -y install \
   niri \
   alacritty \
-  plasma-login-manager \
-  kcm-plasmalogin \
   xdg-desktop-portal-gtk \
   xdg-desktop-portal-gnome \
   gnome-keyring \
@@ -29,7 +27,9 @@ dnf5 -y install \
   polkit-kde \
   swaybg \
   fcitx5-configtool fcitx5-m17n \
-  xwayland-satellite
+  xwayland-satellite \
+  greetd \
+  tuigreet
 
 dnf5 -y install noctalia
 
