@@ -34,7 +34,7 @@ dnf5 -y install \
 dnf5 -y install noctalia
 
 # Create greeter account
-useradd -M -G video greeter
+useradd -M greeter
 chmod -R go+r /etc/greetd/
 
 # Use a COPR Example:
