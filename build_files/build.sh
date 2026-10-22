@@ -33,10 +33,6 @@ dnf5 -y install \
 
 dnf5 -y install noctalia
 
-# Create greeter account
-useradd -M greeter
-chmod -R go+r /etc/greetd/
-
 # Use a COPR Example:
 #
 # dnf5 -y copr enable ublue-os/staging
