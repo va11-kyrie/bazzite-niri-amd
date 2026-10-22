@@ -16,7 +16,7 @@ dnf5 -y remove plasma-workspace plasma-* kde-* kcm-fcitx5
 dnf5 -y install \
   niri \
   alacritty \
-  gdm \
+  plasma-login-manager \
   xdg-desktop-portal-gtk \
   xdg-desktop-portal-gnome \
   gnome-keyring \
