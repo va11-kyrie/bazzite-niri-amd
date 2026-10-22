@@ -43,5 +43,6 @@ dnf5 -y install noctalia
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
+systemctl enable greetd.service
 systemctl --global add-wants niri.service mako.service
 systemctl --global add-wants niri.service plasma-polkit-agent.service
