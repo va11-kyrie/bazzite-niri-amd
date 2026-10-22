@@ -17,6 +17,7 @@ dnf5 -y install \
   niri \
   alacritty \
   plasma-login-manager \
+  kcm-plasmalogin \
   xdg-desktop-portal-gtk \
   xdg-desktop-portal-gnome \
   gnome-keyring \
