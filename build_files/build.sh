@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # Remove KDE
-dnf5 -y remove plasma-workspace plasma-* kde-* kcm-fcitx5
+dnf5 -y remove plasma-workspace plasma-* kde-*
 
 # this installs a package from fedora repos
 dnf5 -y install \
@@ -26,7 +26,6 @@ dnf5 -y install \
   swaylock \
   polkit-kde \
   swaybg \
-  fcitx5-configtool fcitx5-m17n \
   xwayland-satellite \
   greetd \
   tuigreet
