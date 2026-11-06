@@ -26,7 +26,7 @@ dnf5 -y install \
   swaylock \
   polkit-kde \
   swaybg \
-  fcitx5 fcitx5-configtool fcitx5-m17n \
+  fcitx5 fcitx5-configtool fcitx5-chinese-addons fcitx5-mozc \
   xwayland-satellite \
   greetd \
   tuigreet
